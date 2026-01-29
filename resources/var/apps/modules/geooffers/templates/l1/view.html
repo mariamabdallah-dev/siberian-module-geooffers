@@ -1,0 +1,15 @@
+
+    <ion-view sb-page-background>
+      <ion-content class="padding">
+        <div ng-if="is_loading">Loading offer… </div>
+
+        <div ng-if="!is_loading && !offer">
+          Offer not found.
+        </div>
+
+        <div ng-if="!is_loading && offer">
+          <h2>{{offer.title}}</h2>
+          <p>{{offer.body}}</p>
+        </div>
+      </ion-content>
+    </ion-view>

@@ -1,0 +1,42 @@
+{
+  "name": "GeoOffers",
+  "code": "geooffers",
+  "version": "0.1.0",
+  "category": "integration",
+  "model": "GeoOffers_Model_Offer",
+  "desktop_uri": "geooffers/application/list",
+  "routes": [
+    {
+      "root": true,
+      "state": "geooffers-home",
+      "controller": "GeoOffersHomeController",
+      "url": "geooffers/mobile_geooffers/index/value_id/:value_id",
+      "template": "l1/home.html",
+      "cache": false
+    },
+    {
+      "state": "geooffers-view",
+      "controller": "GeoOffersViewController",
+      "url": "geooffers/mobile_geooffers/view/value_id/:value_id/offer_id/:offer_id",
+      "template": "l1/view.html",
+      "cache": false
+    }
+  ],
+  "layouts": [
+    1
+  ],
+  "icons": [
+    "icons/geooffers-flat.png"
+  ],
+  "files": [
+    "modules/geooffers/controllers/geooffers.js",
+    "modules/geooffers/services/geooffers.js",
+    "modules/geooffers/factory/geooffers.js",
+    "modules/geooffers/styles/geooffers.css"
+  ],
+  "compile": true,
+  "use_account": false,
+  "only_once": true,
+  "load_on_start": false,
+  "on_start_factory": null
+}

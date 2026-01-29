@@ -1,0 +1,10 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoOffers\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "GeoOffers"
+msgstr "GeoOffers"
+
+msgid "This is a skeleton list screen."
+msgstr "This is a skeleton list screen."

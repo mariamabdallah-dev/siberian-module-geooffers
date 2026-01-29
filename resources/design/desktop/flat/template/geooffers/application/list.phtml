@@ -1,0 +1,59 @@
+<?php
+
+    ?>
+    <div class="geooffers">
+      <h3><?php echo p__("geooffers", "GeoOffers"); ?></h3>
+
+
+
+      <div class="geooffers-actions">
+        <button class="btn btn-primary">
+          <i class="fa fa-plus"></i> Create offer 
+        </button>
+        <button class="btn btn-default">
+          <i class="fa fa-map-marker"></i> Manage locations
+        </button>
+      </div>
+
+      <hr />
+
+      <h4>Offers (example)</h4>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Active</th>
+            <th>Schedule</th>
+            <th>Targeting</th>
+            <th style="width: 180px;">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>WELCOME_GEOOFFERS</td>
+            <td><span class="label label-success">Yes</span></td>
+            <td>Always</td>
+            <td>US, New York</td>
+            <td>
+              <button class="btn btn-xs btn-default"><i class="fa fa-pencil"></i> Edit</button>
+              <button class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>SUMMER_SALE</td>
+            <td><span class="label label-default">No</span></td>
+            <td>2026-06-01 → 2026-08-31</td>
+            <td>France</td>
+            <td>
+              <button class="btn btn-xs btn-default"><i class="fa fa-pencil"></i> Edit</button>
+              <button class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    
+    </div>

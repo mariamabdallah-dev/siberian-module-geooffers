@@ -1,0 +1,19 @@
+
+    <ion-view sb-page-background>
+      <ion-content class="geooffers-home padding">
+        <h2>GeoOffers</h2>
+
+        <div ng-if="is_loading" class="loading">
+          Loading offers…
+        </div>
+
+        <div ng-if="!is_loading && offers.length === 0">
+          No offers available for your area.
+        </div>
+
+        <div ng-repeat="o in offers" class="geooffers-item">
+          <h3>{{o.title}}</h3>
+          <p>{{o.body}}</p>
+        </div>
+      </ion-content>
+    </ion-view>

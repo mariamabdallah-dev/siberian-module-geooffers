@@ -1,0 +1,13 @@
+{
+  "name": "GeoOffers",
+  "description": "Location-based offers / announcements (skeleton module)",
+  "type": "module",
+  "version": "0.1.0",
+  "dependencies": {
+    "system": {
+      "type": "SAE",
+      "version": "4.16.0"
+    },
+    "modules": {}
+  }
+}
